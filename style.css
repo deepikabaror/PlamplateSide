@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(16, 17, 18);
+    /* overflow: hidden; */
+    position: relative;
+    overflow-y: scroll;
+}
+.container{
+    margin-left: 9%;
+    margin-top:10px;
+    height: 160vh;
+    width: 80vw;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.wrapper{
+       margin-top: 10px;
+        display: flex;
+        /* margin: 20px; */
+        justify-content: space-around;
+        
+}
+.flex{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#logo{
+    border-radius: 6px;
+
+}
+button{
+    height: 30px;
+    width: 85px;
+    background-color: rgb(55, 55, 139);
+    color: white;
+}
+#mx-1:hover{
+    transform: scale(1.1);
+    color: rgb(79, 79, 146);
+}
+.section{
+
+        margin-top: 35px;
+        margin-left: 30px;
+        /* gap: 5px; */
+        display: flex;
+        /* margin: 20px; */
+
+        justify-content: space-around;
+}
+.section1{
+        margin-top: 35px;
+        margin-left: 29px;
+        display: flex;
+        gap: 5px;
+        /* margin: 20px; */
+        justify-content: space-around;
+}
+#img-1{
+    border-radius: 9px;
+}
+#text:hover{
+    color: rgb(138, 138, 222);
+    transform: scale(1.1);
+}hr{
+    margin-top: 35px;
+    height: 4px;
+    background-color: antiquewhite;
+}
+#social{
+    border-radius: 15px;
+}
+#logo1{
+    border-radius: 9px;
+}
+.mx-footer{
+    margin-top: 20px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+}
+#text1{
+    color: brown;
+}
+#text1:hover{
+    color: rgb(115, 115, 198);
+}
+#p{
+    color: red;
+}
+#p:hover{
+    color: rgb(114, 114, 193);
+}
+/* #mx-text{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+#mx-text:hover{
+    transform: translateY(-10px);
+} */
